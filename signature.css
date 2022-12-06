@@ -1,0 +1,25 @@
+/* 
+ * Use CustomCSS Thunderbird Add-on to add this
+ * CSS to the <head> tag for GMail compatibility
+ */
+
+.link-color:hover {
+    color: #5a5a5a !important
+}
+.link-color {
+    cursor: pointer;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11pt;
+}
+.main-table-right {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11pt;
+}
+
+@media screen and (max-width: 1024px){
+    .show-image{
+        display: none !important;
+    }
+}
