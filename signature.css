@@ -1,25 +1,41 @@
 /* 
  * Use CustomCSS Thunderbird Add-on to add this
- * CSS to the <head> tag for GMail compatibility
+ * CSS to the <head> tag for GMail compatibility.
  */
+
+.main-table {
+    border:5px #e9d6c2 solid;
+    border-radius: 20px 0px 20px 0px;
+}
+
+@media screen and (max-width: 1024px){
+    .column-left{
+        display: none !important;
+    }
+}
+
+.img-style {
+    color: #5a5a5a !important;
+    border-radius: 20px 0px 0px 0px;
+}
+
+.td-value {
+    padding: 0.1em 0 0.1em 1em;
+}
+
+.link-value {
+    color: #000000 !important;
+    text-decoration: none !important;
+}
 
 .link-color:hover {
     color: #5a5a5a !important
-}
-.link-color {
-    cursor: pointer;
 }
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 11pt;
 }
-.main-table-right {
+.column-right {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 11pt;
-}
-
-@media screen and (max-width: 1024px){
-    .show-image{
-        display: none !important;
-    }
 }
